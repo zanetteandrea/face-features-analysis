@@ -14,19 +14,124 @@ Analisi dei risultati ottenuti con diverse reti neurali per l'estrazione delle c
 ## Results
 ### Flickr Dataset
 
-<img src="/results/flickr_dataset_result/Ages%20distribution%20-%20flickr%20dataset.jpeg" width=400> | 
-<img src="/results/flickr_dataset_result/Emotions%20distribution%20-%20flickr%20dataset.jpeg" width=400>
-<img src="/results/flickr_dataset_result/Emotions%20distribution%20by%20ages%20-%20flickr%20dataset.jpeg" width=400>
-<img src="/results/flickr_dataset_result/Emotions%20distribution%20by%20gender%20-%20flickr%20dataset.jpeg" width=400>
-<img src="/results/flickr_dataset_result/Ethnicities%20distribution%20-%20flickr%20dataset.jpeg" width=400>
-<img src="/results/flickr_dataset_result/Ethnicities%20distribution%20by%20ages%20-%20flickr%20dataset.jpeg" width=400>
-<img src="/results/flickr_dataset_result/Ethnicities%20distribution%20by%20gender%20-%20flickr%20dataset.jpeg" width=400>
+Age  | Total
+:---:|:----:
+(0-2)    |    246
+(4-6)    |    330
+(8-12)   |    418
+(15-20)  |    206
+(25-32)  |   1334
+(38-43)  |    275
+(48-53)  |    156
+(60-100) |     33
+
+<img src="/results/flickr_dataset_result/Ages%20distribution%20-%20flickr%20dataset.jpeg" width=350>  
+
+Ethnicity| m | f
+:-------:|:-:|:-:
+white  | 884 | 619
+black  | 701 | 348
+asian  | 114 |  75
+indian | 152 |  97
+others |   2 |   6
+
+<img src="/results/flickr_dataset_result/Ethnicities%20distribution%20by%20gender%20-%20flickr%20dataset.jpeg" width=600>
+<img src="/results/flickr_dataset_result/Ethnicities%20distribution%20-%20flickr%20dataset.jpeg" width=350>
+
+Ethnicity|(0-2)  |(4-6)  |(8-12)  |(15-20)  |(25-32)  |(38-43)  |(48-53)  |(60-100)
+:------:|:-----:|:-----:|:------:|:-------:|:-------:|:-------:|:-------:|:------:
+white   |  109  |  164  |   201  |    104  |    670  |    157  |     84  |      14
+black   |   97  |  114  |   157  |     60  |    463  |     87  |     53  |      18
+asian   |   15  |   24  |    33  |     23  |     64  |     14  |     15  |       1
+indian  |   25  |  27   |   26   |    19   |   132   |    16   |     4   |      0
+others  |    0  |    1  |     1  |      0  |      5  |      1  |      0  |       0
+
+<img src="/results/flickr_dataset_result/Ethnicities%20distribution%20by%20ages%20-%20flickr%20dataset.jpeg" width=600>
+
+Emotion| m | f
+:-------:|:-:|:-:
+angry      | 166 | 57
+disgusted  |   1 |    1
+fearful    | 200 |   91
+happy      |1071 |  800
+neutral    |  288|  127
+sad        |  100|   63
+surprised  |   27|    6
+
+<img src="/results/flickr_dataset_result/Emotions%20distribution%20by%20gender%20-%20flickr%20dataset.jpeg" width=600>
+<img src="/results/flickr_dataset_result/Emotions%20distribution%20-%20flickr%20dataset.jpeg" width=350>
+
+Emotion|(0-2)  |(4-6)  |(8-12)  |(15-20)  |(25-32)  |(38-43)  |(48-53)  |(60-100)
+:------:|:-----:|:-----:|:------:|:-------:|:-------:|:-------:|:-------:|:------:
+angry      |   30   |  26    |  25   |    12   |    95   |    22    |    9    |     4
+disgusted  |    0   |   0    |   0   |     0   |     1   |     0    |    1    |     0
+fearful    |   33   |  28    |  45   |     9   |   125   |    27    |   13    |    11
+happy      |  118   | 188    | 283   |   134   |   865   |   168    |  105    |    10
+neutral    |   37   |  65    |  44   |    36   |   166   |    45    |   16    |     6
+sad        |   21   |  21    |  18   |    14   |    67   |     9    |   11    |     2
+surprised  |    7   |   2    |   3   |     1   |    15   |     4    |    1    |     0
+
+<img src="/results/flickr_dataset_result/Emotions%20distribution%20by%20ages%20-%20flickr%20dataset.jpeg" width=600>
 
 ### StyleGan2 Dataset
-<img src="/results/synthetic_dataset_result/Ages%20distribution%20-%20synthetic%20dataset.jpeg" width=400> |
-<img src="/results/synthetic_dataset_result/Emotions%20distribution%20-%20synthetic%20dataset.jpeg" width=400>
-<img src="/results/synthetic_dataset_result/Emotions%20distribution%20by%20ages%20-%20synthetic%20dataset.jpeg" width=400>
-<img src="/results/synthetic_dataset_result/Emotions%20distribution%20by%20gender%20-%20synthetic%20dataset.jpeg" width=400>
-<img src="/results/synthetic_dataset_result/Ethnicities%20distribution%20-%20synthetic%20dataset.jpeg" width=400>
-<img src="/results/synthetic_dataset_result/Ethnicities%20distribution%20by%20ages%20-%20synthetic%20dataset.jpeg" width=400>
-<img src="/results/synthetic_dataset_result/Ethnicities%20distribution%20by%20gender%20-%20synthetic%20dataset.jpeg" width=400>
+
+Age  | Total
+:---:|:----:
+(0-2)  |       32
+(4-6)  |       81
+(8-12) |      225
+(15-20)|      372
+(25-32)|     1304
+(38-43)|      152
+(48-53)|       29
+(60-100)|       5
+
+<img src="/results/synthetic_dataset_result/Ages%20distribution%20-%20synthetic%20dataset.jpeg" width=350>
+
+Ethnicity| m | f
+:-------:|:-:|:-:
+white    | 508| 547
+black    | 292 | 134
+asian    | 61  | 33
+indian   | 448 | 175
+others   | 1    | 1
+
+<img src="/results/synthetic_dataset_result/Ethnicities%20distribution%20by%20gender%20-%20synthetic%20dataset.jpeg" width=600>
+<img src="/results/synthetic_dataset_result/Ethnicities%20distribution%20-%20synthetic%20dataset.jpeg" width=350>
+
+
+Ethnicity|(0-2)  |(4-6)  |(8-12)  |(15-20)  |(25-32)  |(38-43)  |(48-53)  |(60-100)
+:------:|:-----:|:-----:|:------:|:-------:|:-------:|:-------:|:-------:|:------:
+white   |   14  |   46  |   102  |    225  |    573  |     69  |    22   |      4
+black   |   17  |   21  |    63  |     51  |    219  |     51  |      3  |       1
+asian   |    0  |    5  |    12  |     16  |     56  |      2  |      3  |       0
+indian  |    1  |    9  |    47  |     79  |    456  |     30  |      1  |       0
+others  |    0  |    0  |     1  |      1  |      0  |      0  |      0  |       0
+
+<img src="/results/synthetic_dataset_result/Ethnicities%20distribution%20by%20ages%20-%20synthetic%20dataset.jpeg" width=600>
+
+Emotion| m | f
+:-------:|:-:|:-:
+angry      |  19  |   5
+disgusted  |   0  |   0
+fearful    |  90  |  45
+happy      |  1016|  780
+neutral    | 140  | 43
+sad        |  40  | 14
+surprised  |   5  |  3
+
+<img src="/results/synthetic_dataset_result/Emotions%20distribution%20by%20gender%20-%20synthetic%20dataset.jpeg" width=600>
+<img src="/results/synthetic_dataset_result/Emotions%20distribution%20-%20synthetic%20dataset.jpeg" width=350>
+
+Emotion|(0-2)  |(4-6)  |(8-12)  |(15-20)  |(25-32)  |(38-43)  |(48-53)  |(60-100)
+:------:|:-----:|:-----:|:------:|:-------:|:-------:|:-------:|:-------:|:------:
+angry      |    0   |   1    |   3    |    0   |    15   |     4   |     0    |     1
+disgusted  |    0   |   0    |   0    |    0   |     0   |     0   |     0    |     0
+fearful    |   11   |  11    |  29    |    7   |    55   |    18   |     2    |     2
+happy      |   11   |  57    | 161    |  333   |  1101   |   107   |    26    |     0
+neutral    |    7   |  11    |  19    |   28   |   104   |    14   |     0    |     0
+sad        |    2   |   1    |   9    |    4   |    27   |     8   |     1    |     2
+surprised  |    1   |   0    |   4    |    0   |     2   |     1   |     0    |     0
+
+<img src="/results/synthetic_dataset_result/Emotions%20distribution%20by%20ages%20-%20synthetic%20dataset.jpeg" width=600>
+

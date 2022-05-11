@@ -13,7 +13,8 @@ Analisi dei risultati ottenuti con diverse reti neurali per l'estrazione delle c
 
 ## Results
 ### Flickr Dataset
-<img src="/results/flickr_dataset_result/Ages%20distribution%20-%20flickr%20dataset.jpeg" width=400>
+
+<img src="/results/flickr_dataset_result/Ages%20distribution%20-%20flickr%20dataset.jpeg" width=400> | 
 <img src="/results/flickr_dataset_result/Emotions%20distribution%20-%20flickr%20dataset.jpeg" width=400>
 <img src="/results/flickr_dataset_result/Emotions%20distribution%20by%20ages%20-%20flickr%20dataset.jpeg" width=400>
 <img src="/results/flickr_dataset_result/Emotions%20distribution%20by%20gender%20-%20flickr%20dataset.jpeg" width=400>
@@ -22,7 +23,7 @@ Analisi dei risultati ottenuti con diverse reti neurali per l'estrazione delle c
 <img src="/results/flickr_dataset_result/Ethnicities%20distribution%20by%20gender%20-%20flickr%20dataset.jpeg" width=400>
 
 ### StyleGan2 Dataset
-<img src="/results/synthetic_dataset_result/Ages%20distribution%20-%20synthetic%20dataset.jpeg" width=400>
+<img src="/results/synthetic_dataset_result/Ages%20distribution%20-%20synthetic%20dataset.jpeg" width=400> |
 <img src="/results/synthetic_dataset_result/Emotions%20distribution%20-%20synthetic%20dataset.jpeg" width=400>
 <img src="/results/synthetic_dataset_result/Emotions%20distribution%20by%20ages%20-%20synthetic%20dataset.jpeg" width=400>
 <img src="/results/synthetic_dataset_result/Emotions%20distribution%20by%20gender%20-%20synthetic%20dataset.jpeg" width=400>
